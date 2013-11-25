@@ -1,0 +1,19 @@
+PODS:
+  - FishLampCore/Classes (0.0.1)
+  - FishLampCore/Tests (0.0.1)
+  - ObjectiveSugar (0.9)
+
+DEPENDENCIES:
+  - FishLampCore/Classes (from `../fishlamp-core/FishLampCore.podspec`)
+  - FishLampCore/Tests (from `../fishlamp-core/FishLampCore.podspec`)
+  - ObjectiveSugar (~> 0.9)
+
+EXTERNAL SOURCES:
+  FishLampCore:
+    :path: ../fishlamp-core/FishLampCore.podspec
+
+SPEC CHECKSUMS:
+  FishLampCore: edb9917793d7e4ef28e412092c51803e749eed63
+  ObjectiveSugar: 81337e36790b5a157ee6ccdcf65c91393ca5d900
+
+COCOAPODS: 0.28.0

@@ -1,0 +1,5 @@
+#include "Pods-ObjectiveSugar.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ObjectiveSugar" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/FishLampCore" "${PODS_ROOT}/Headers/FishLampCore/Assertions" "${PODS_ROOT}/Headers/FishLampCore/Errors" "${PODS_ROOT}/Headers/FishLampCore/Logger" "${PODS_ROOT}/Headers/FishLampCore/Ownership" "${PODS_ROOT}/Headers/FishLampCore/Properties" "${PODS_ROOT}/Headers/FishLampCore/Required" "${PODS_ROOT}/Headers/FishLampCore/Runtime" "${PODS_ROOT}/Headers/FishLampCore/Strings" "${PODS_ROOT}/Headers/FishLampCore/Utilities" "${PODS_ROOT}/Headers/ObjectiveSugar"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
